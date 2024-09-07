@@ -1,0 +1,63 @@
+Started GET "/" for 172.17.0.1 at 2024-09-07 16:45:15 +0000
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 3190)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3258)
+Completed 500 Internal Server Error in 114ms (ActiveRecord: 0.0ms | Allocations: 14689)
+  
+ActionView::Template::Error (There is an issue connecting to your database with your username/password, username: test_app.
+
+Please check your database configuration to ensure the username/password are valid.
+):
+    4: <h1>This is a test version!</h1>
+    5: 
+    6: <div id="books">
+    7:   <% @books.each do |book| %>
+    8:     <%= render book %>
+    9:     <p>
+   10:       <%= link_to "Show this book", book %>
+  
+app/views/books/index.html.erb:7
+Started GET "/" for 172.17.0.1 at 2024-09-07 16:45:15 +0000
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2062)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2102)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2348)
+  
+ActionView::Template::Error (There is an issue connecting to your database with your username/password, username: test_app.
+
+Please check your database configuration to ensure the username/password are valid.
+):
+    4: <h1>This is a test version!</h1>
+    5: 
+    6: <div id="books">
+    7:   <% @books.each do |book| %>
+    8:     <%= render book %>
+    9:     <p>
+   10:       <%= link_to "Show this book", book %>
+  
+app/views/books/index.html.erb:7
+Started GET "/" for 172.17.0.1 at 2024-09-07 16:46:56 +0000
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1954)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 1994)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2202)
+  
+ActionView::Template::Error (There is an issue connecting to your database with your username/password, username: test_app.
+
+Please check your database configuration to ensure the username/password are valid.
+):
+    4: <h1>This is a test version!</h1>
+    5: 
+    6: <div id="books">
+    7:   <% @books.each do |book| %>
+    8:     <%= render book %>
+    9:     <p>
+   10:       <%= link_to "Show this book", book %>
+  
+app/views/books/index.html.erb:7

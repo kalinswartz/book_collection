@@ -68,7 +68,7 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem "capybara"
+  gem "capybara", '>= 3.26'
   gem "selenium-webdriver"
   gem "webdrivers"
 end
@@ -78,3 +78,4 @@ gem 'yaml_db'
 
 gem 'brakeman'
 gem 'rubocop'
+gem 'seed_dump'
