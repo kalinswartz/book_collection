@@ -11,6 +11,5 @@ Book.create!([
     {title: "Howls Moving Castle"},
     {title: "A Guide to Among Us"},
     {title: "Starbucks Secrets"},
-    {title: "Jif's Bio"},
-    {title: "This is production db book"}
+    {title: "Jif's Bio"}
 ])
