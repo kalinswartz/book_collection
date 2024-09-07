@@ -1,0 +1,78 @@
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (1.5ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "The Life of Pi"], ["created_at", "2024-09-07 16:08:32.505246"], ["updated_at", "2024-09-07 16:08:32.505246"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Harry Potter"], ["created_at", "2024-09-07 16:08:32.510856"], ["updated_at", "2024-09-07 16:08:32.510856"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Howls Moving Castle"], ["created_at", "2024-09-07 16:08:32.514141"], ["updated_at", "2024-09-07 16:08:32.514141"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "A Guide to Among Us"], ["created_at", "2024-09-07 16:08:32.517254"], ["updated_at", "2024-09-07 16:08:32.517254"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Starbucks Secrets"], ["created_at", "2024-09-07 16:08:32.520321"], ["updated_at", "2024-09-07 16:08:32.520321"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Jif's Bio"], ["created_at", "2024-09-07 16:08:32.523406"], ["updated_at", "2024-09-07 16:08:32.523406"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.4ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "The Life of Pi"], ["created_at", "2024-09-07 16:22:40.337198"], ["updated_at", "2024-09-07 16:22:40.337198"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Harry Potter"], ["created_at", "2024-09-07 16:22:40.341477"], ["updated_at", "2024-09-07 16:22:40.341477"]]
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Howls Moving Castle"], ["created_at", "2024-09-07 16:22:40.345119"], ["updated_at", "2024-09-07 16:22:40.345119"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "A Guide to Among Us"], ["created_at", "2024-09-07 16:22:40.348336"], ["updated_at", "2024-09-07 16:22:40.348336"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Starbucks Secrets"], ["created_at", "2024-09-07 16:22:40.351434"], ["updated_at", "2024-09-07 16:22:40.351434"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Jif's Bio"], ["created_at", "2024-09-07 16:22:40.354537"], ["updated_at", "2024-09-07 16:22:40.354537"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.1ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "This is test db book"], ["created_at", "2024-09-07 16:22:40.357541"], ["updated_at", "2024-09-07 16:22:40.357541"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 172.17.0.1 at 2024-09-07 16:23:58 +0000
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/_book.html.erb (Duration: 2.8ms | Allocations: 233)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered books/index.html.erb within layouts/application (Duration: 43.7ms | Allocations: 11048)
+  Rendered layout layouts/application.html.erb (Duration: 1428.3ms | Allocations: 91017)
+Completed 200 OK in 1543ms (Views: 1433.6ms | ActiveRecord: 6.1ms | Allocations: 104125)
+Started GET "/" for 172.17.0.1 at 2024-09-07 17:02:51 +0000
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.6ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/_book.html.erb (Duration: 2.9ms | Allocations: 236)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered books/index.html.erb within layouts/application (Duration: 56.4ms | Allocations: 11061)
+  Rendered layout layouts/application.html.erb (Duration: 69.4ms | Allocations: 13319)
+Completed 200 OK in 178ms (Views: 69.8ms | ActiveRecord: 10.2ms | Allocations: 26425)
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books" WHERE "books"."title" = $1 LIMIT $2[0m  [["title", "This is test db book"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m

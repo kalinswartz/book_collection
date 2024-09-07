@@ -1,0 +1,670 @@
+I, [2024-09-07T16:26:05.083156 #520]  INFO -- : [c0ac0759-0baa-4801-b1e8-e1b7680e4e4e] Started GET "/" for 172.17.0.1 at 2024-09-07 16:26:05 +0000
+I, [2024-09-07T16:26:05.088050 #520]  INFO -- : [c0ac0759-0baa-4801-b1e8-e1b7680e4e4e] Processing by BooksController#index as HTML
+I, [2024-09-07T16:26:05.114686 #520]  INFO -- : [c0ac0759-0baa-4801-b1e8-e1b7680e4e4e]   Rendered books/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 2842)
+I, [2024-09-07T16:26:05.115016 #520]  INFO -- : [c0ac0759-0baa-4801-b1e8-e1b7680e4e4e]   Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2910)
+I, [2024-09-07T16:26:05.115438 #520]  INFO -- : [c0ac0759-0baa-4801-b1e8-e1b7680e4e4e] Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms | Allocations: 4640)
+F, [2024-09-07T16:26:05.118603 #520] FATAL -- : [c0ac0759-0baa-4801-b1e8-e1b7680e4e4e]   
+[c0ac0759-0baa-4801-b1e8-e1b7680e4e4e] ActionView::Template::Error (fe_sendauth: no password supplied
+):
+[c0ac0759-0baa-4801-b1e8-e1b7680e4e4e]     4: <h1>This is a test version!</h1>
+[c0ac0759-0baa-4801-b1e8-e1b7680e4e4e]     5: 
+[c0ac0759-0baa-4801-b1e8-e1b7680e4e4e]     6: <div id="books">
+[c0ac0759-0baa-4801-b1e8-e1b7680e4e4e]     7:   <% @books.each do |book| %>
+[c0ac0759-0baa-4801-b1e8-e1b7680e4e4e]     8:     <%= render book %>
+[c0ac0759-0baa-4801-b1e8-e1b7680e4e4e]     9:     <p>
+[c0ac0759-0baa-4801-b1e8-e1b7680e4e4e]    10:       <%= link_to "Show this book", book %>
+[c0ac0759-0baa-4801-b1e8-e1b7680e4e4e]   
+[c0ac0759-0baa-4801-b1e8-e1b7680e4e4e] app/views/books/index.html.erb:7
+I, [2024-09-07T16:26:07.213389 #520]  INFO -- : [52ce3f3b-55f1-443e-b59f-6b67c8fb912d] Started GET "/" for 172.17.0.1 at 2024-09-07 16:26:07 +0000
+I, [2024-09-07T16:26:07.214475 #520]  INFO -- : [52ce3f3b-55f1-443e-b59f-6b67c8fb912d] Processing by BooksController#index as HTML
+I, [2024-09-07T16:26:07.219459 #520]  INFO -- : [52ce3f3b-55f1-443e-b59f-6b67c8fb912d]   Rendered books/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1951)
+I, [2024-09-07T16:26:07.220170 #520]  INFO -- : [52ce3f3b-55f1-443e-b59f-6b67c8fb912d]   Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1982)
+I, [2024-09-07T16:26:07.220875 #520]  INFO -- : [52ce3f3b-55f1-443e-b59f-6b67c8fb912d] Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2209)
+F, [2024-09-07T16:26:07.227114 #520] FATAL -- : [52ce3f3b-55f1-443e-b59f-6b67c8fb912d]   
+[52ce3f3b-55f1-443e-b59f-6b67c8fb912d] ActionView::Template::Error (fe_sendauth: no password supplied
+):
+[52ce3f3b-55f1-443e-b59f-6b67c8fb912d]     4: <h1>This is a test version!</h1>
+[52ce3f3b-55f1-443e-b59f-6b67c8fb912d]     5: 
+[52ce3f3b-55f1-443e-b59f-6b67c8fb912d]     6: <div id="books">
+[52ce3f3b-55f1-443e-b59f-6b67c8fb912d]     7:   <% @books.each do |book| %>
+[52ce3f3b-55f1-443e-b59f-6b67c8fb912d]     8:     <%= render book %>
+[52ce3f3b-55f1-443e-b59f-6b67c8fb912d]     9:     <p>
+[52ce3f3b-55f1-443e-b59f-6b67c8fb912d]    10:       <%= link_to "Show this book", book %>
+[52ce3f3b-55f1-443e-b59f-6b67c8fb912d]   
+[52ce3f3b-55f1-443e-b59f-6b67c8fb912d] app/views/books/index.html.erb:7
+I, [2024-09-07T16:26:07.768984 #520]  INFO -- : [b64476a6-22d8-4966-8dae-230d0a3f6542] Started GET "/" for 172.17.0.1 at 2024-09-07 16:26:07 +0000
+I, [2024-09-07T16:26:07.770514 #520]  INFO -- : [b64476a6-22d8-4966-8dae-230d0a3f6542] Processing by BooksController#index as HTML
+I, [2024-09-07T16:26:07.775468 #520]  INFO -- : [b64476a6-22d8-4966-8dae-230d0a3f6542]   Rendered books/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1951)
+I, [2024-09-07T16:26:07.776137 #520]  INFO -- : [b64476a6-22d8-4966-8dae-230d0a3f6542]   Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1982)
+I, [2024-09-07T16:26:07.776670 #520]  INFO -- : [b64476a6-22d8-4966-8dae-230d0a3f6542] Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2186)
+F, [2024-09-07T16:26:07.781570 #520] FATAL -- : [b64476a6-22d8-4966-8dae-230d0a3f6542]   
+[b64476a6-22d8-4966-8dae-230d0a3f6542] ActionView::Template::Error (fe_sendauth: no password supplied
+):
+[b64476a6-22d8-4966-8dae-230d0a3f6542]     4: <h1>This is a test version!</h1>
+[b64476a6-22d8-4966-8dae-230d0a3f6542]     5: 
+[b64476a6-22d8-4966-8dae-230d0a3f6542]     6: <div id="books">
+[b64476a6-22d8-4966-8dae-230d0a3f6542]     7:   <% @books.each do |book| %>
+[b64476a6-22d8-4966-8dae-230d0a3f6542]     8:     <%= render book %>
+[b64476a6-22d8-4966-8dae-230d0a3f6542]     9:     <p>
+[b64476a6-22d8-4966-8dae-230d0a3f6542]    10:       <%= link_to "Show this book", book %>
+[b64476a6-22d8-4966-8dae-230d0a3f6542]   
+[b64476a6-22d8-4966-8dae-230d0a3f6542] app/views/books/index.html.erb:7
+I, [2024-09-07T16:26:07.957184 #520]  INFO -- : [e751b220-2293-4164-b6b8-566b24e147c4] Started GET "/" for 172.17.0.1 at 2024-09-07 16:26:07 +0000
+I, [2024-09-07T16:26:07.958471 #520]  INFO -- : [e751b220-2293-4164-b6b8-566b24e147c4] Processing by BooksController#index as HTML
+I, [2024-09-07T16:26:07.963394 #520]  INFO -- : [e751b220-2293-4164-b6b8-566b24e147c4]   Rendered books/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1950)
+I, [2024-09-07T16:26:07.964096 #520]  INFO -- : [e751b220-2293-4164-b6b8-566b24e147c4]   Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1980)
+I, [2024-09-07T16:26:07.964846 #520]  INFO -- : [e751b220-2293-4164-b6b8-566b24e147c4] Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2175)
+F, [2024-09-07T16:26:07.968594 #520] FATAL -- : [e751b220-2293-4164-b6b8-566b24e147c4]   
+[e751b220-2293-4164-b6b8-566b24e147c4] ActionView::Template::Error (fe_sendauth: no password supplied
+):
+[e751b220-2293-4164-b6b8-566b24e147c4]     4: <h1>This is a test version!</h1>
+[e751b220-2293-4164-b6b8-566b24e147c4]     5: 
+[e751b220-2293-4164-b6b8-566b24e147c4]     6: <div id="books">
+[e751b220-2293-4164-b6b8-566b24e147c4]     7:   <% @books.each do |book| %>
+[e751b220-2293-4164-b6b8-566b24e147c4]     8:     <%= render book %>
+[e751b220-2293-4164-b6b8-566b24e147c4]     9:     <p>
+[e751b220-2293-4164-b6b8-566b24e147c4]    10:       <%= link_to "Show this book", book %>
+[e751b220-2293-4164-b6b8-566b24e147c4]   
+[e751b220-2293-4164-b6b8-566b24e147c4] app/views/books/index.html.erb:7
+I, [2024-09-07T16:28:59.017548 #548]  INFO -- : [453bae83-b743-4898-8e11-65ef0b0489b9] Started GET "/" for 172.17.0.1 at 2024-09-07 16:28:59 +0000
+I, [2024-09-07T16:28:59.025308 #548]  INFO -- : [453bae83-b743-4898-8e11-65ef0b0489b9] Processing by BooksController#index as HTML
+I, [2024-09-07T16:28:59.056422 #548]  INFO -- : [453bae83-b743-4898-8e11-65ef0b0489b9]   Rendered books/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 2842)
+I, [2024-09-07T16:28:59.056988 #548]  INFO -- : [453bae83-b743-4898-8e11-65ef0b0489b9]   Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 2910)
+I, [2024-09-07T16:28:59.057510 #548]  INFO -- : [453bae83-b743-4898-8e11-65ef0b0489b9] Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms | Allocations: 4639)
+F, [2024-09-07T16:28:59.061876 #548] FATAL -- : [453bae83-b743-4898-8e11-65ef0b0489b9]   
+[453bae83-b743-4898-8e11-65ef0b0489b9] ActionView::Template::Error (fe_sendauth: no password supplied
+):
+[453bae83-b743-4898-8e11-65ef0b0489b9]     4: <h1>This is a test version!</h1>
+[453bae83-b743-4898-8e11-65ef0b0489b9]     5: 
+[453bae83-b743-4898-8e11-65ef0b0489b9]     6: <div id="books">
+[453bae83-b743-4898-8e11-65ef0b0489b9]     7:   <% @books.each do |book| %>
+[453bae83-b743-4898-8e11-65ef0b0489b9]     8:     <%= render book %>
+[453bae83-b743-4898-8e11-65ef0b0489b9]     9:     <p>
+[453bae83-b743-4898-8e11-65ef0b0489b9]    10:       <%= link_to "Show this book", book %>
+[453bae83-b743-4898-8e11-65ef0b0489b9]   
+[453bae83-b743-4898-8e11-65ef0b0489b9] app/views/books/index.html.erb:7
+I, [2024-09-07T16:28:59.456582 #548]  INFO -- : [6aabce20-fa26-438c-8296-93889635b14f] Started GET "/" for 172.17.0.1 at 2024-09-07 16:28:59 +0000
+I, [2024-09-07T16:28:59.457387 #548]  INFO -- : [6aabce20-fa26-438c-8296-93889635b14f] Processing by BooksController#index as HTML
+I, [2024-09-07T16:28:59.462318 #548]  INFO -- : [6aabce20-fa26-438c-8296-93889635b14f]   Rendered books/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1977)
+I, [2024-09-07T16:28:59.462883 #548]  INFO -- : [6aabce20-fa26-438c-8296-93889635b14f]   Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2008)
+I, [2024-09-07T16:28:59.463385 #548]  INFO -- : [6aabce20-fa26-438c-8296-93889635b14f] Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2235)
+F, [2024-09-07T16:28:59.467927 #548] FATAL -- : [6aabce20-fa26-438c-8296-93889635b14f]   
+[6aabce20-fa26-438c-8296-93889635b14f] ActionView::Template::Error (fe_sendauth: no password supplied
+):
+[6aabce20-fa26-438c-8296-93889635b14f]     4: <h1>This is a test version!</h1>
+[6aabce20-fa26-438c-8296-93889635b14f]     5: 
+[6aabce20-fa26-438c-8296-93889635b14f]     6: <div id="books">
+[6aabce20-fa26-438c-8296-93889635b14f]     7:   <% @books.each do |book| %>
+[6aabce20-fa26-438c-8296-93889635b14f]     8:     <%= render book %>
+[6aabce20-fa26-438c-8296-93889635b14f]     9:     <p>
+[6aabce20-fa26-438c-8296-93889635b14f]    10:       <%= link_to "Show this book", book %>
+[6aabce20-fa26-438c-8296-93889635b14f]   
+[6aabce20-fa26-438c-8296-93889635b14f] app/views/books/index.html.erb:7
+I, [2024-09-07T16:33:21.723373 #548]  INFO -- : [e3d76f89-b1e4-48b8-bb32-1cd632c4273a] Started GET "/" for 172.17.0.1 at 2024-09-07 16:33:21 +0000
+I, [2024-09-07T16:33:21.725026 #548]  INFO -- : [e3d76f89-b1e4-48b8-bb32-1cd632c4273a] Processing by BooksController#index as HTML
+I, [2024-09-07T16:33:21.731245 #548]  INFO -- : [e3d76f89-b1e4-48b8-bb32-1cd632c4273a]   Rendered books/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1951)
+I, [2024-09-07T16:33:21.731956 #548]  INFO -- : [e3d76f89-b1e4-48b8-bb32-1cd632c4273a]   Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 1982)
+I, [2024-09-07T16:33:21.732331 #548]  INFO -- : [e3d76f89-b1e4-48b8-bb32-1cd632c4273a] Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2186)
+F, [2024-09-07T16:33:21.742128 #548] FATAL -- : [e3d76f89-b1e4-48b8-bb32-1cd632c4273a]   
+[e3d76f89-b1e4-48b8-bb32-1cd632c4273a] ActionView::Template::Error (fe_sendauth: no password supplied
+):
+[e3d76f89-b1e4-48b8-bb32-1cd632c4273a]     4: <h1>This is a test version!</h1>
+[e3d76f89-b1e4-48b8-bb32-1cd632c4273a]     5: 
+[e3d76f89-b1e4-48b8-bb32-1cd632c4273a]     6: <div id="books">
+[e3d76f89-b1e4-48b8-bb32-1cd632c4273a]     7:   <% @books.each do |book| %>
+[e3d76f89-b1e4-48b8-bb32-1cd632c4273a]     8:     <%= render book %>
+[e3d76f89-b1e4-48b8-bb32-1cd632c4273a]     9:     <p>
+[e3d76f89-b1e4-48b8-bb32-1cd632c4273a]    10:       <%= link_to "Show this book", book %>
+[e3d76f89-b1e4-48b8-bb32-1cd632c4273a]   
+[e3d76f89-b1e4-48b8-bb32-1cd632c4273a] app/views/books/index.html.erb:7
+I, [2024-09-07T16:37:19.384959 #640]  INFO -- : [6786a0fb-b5f2-4948-90f0-a6738734259d] Started GET "/" for 172.17.0.1 at 2024-09-07 16:37:19 +0000
+I, [2024-09-07T16:37:19.389279 #640]  INFO -- : [6786a0fb-b5f2-4948-90f0-a6738734259d] Processing by BooksController#index as HTML
+I, [2024-09-07T16:37:19.412867 #640]  INFO -- : [6786a0fb-b5f2-4948-90f0-a6738734259d]   Rendered books/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 2848)
+I, [2024-09-07T16:37:19.413256 #640]  INFO -- : [6786a0fb-b5f2-4948-90f0-a6738734259d]   Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2916)
+I, [2024-09-07T16:37:19.413583 #640]  INFO -- : [6786a0fb-b5f2-4948-90f0-a6738734259d] Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms | Allocations: 4645)
+F, [2024-09-07T16:37:19.418733 #640] FATAL -- : [6786a0fb-b5f2-4948-90f0-a6738734259d]   
+[6786a0fb-b5f2-4948-90f0-a6738734259d] ActionView::Template::Error (We could not find your database: test_app_production. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+[6786a0fb-b5f2-4948-90f0-a6738734259d]     4: <h1>This is a test version!</h1>
+[6786a0fb-b5f2-4948-90f0-a6738734259d]     5: 
+[6786a0fb-b5f2-4948-90f0-a6738734259d]     6: <div id="books">
+[6786a0fb-b5f2-4948-90f0-a6738734259d]     7:   <% @books.each do |book| %>
+[6786a0fb-b5f2-4948-90f0-a6738734259d]     8:     <%= render book %>
+[6786a0fb-b5f2-4948-90f0-a6738734259d]     9:     <p>
+[6786a0fb-b5f2-4948-90f0-a6738734259d]    10:       <%= link_to "Show this book", book %>
+[6786a0fb-b5f2-4948-90f0-a6738734259d]   
+[6786a0fb-b5f2-4948-90f0-a6738734259d] app/views/books/index.html.erb:7
+I, [2024-09-07T16:37:20.873057 #640]  INFO -- : [9d6c8dd0-8a48-438a-be57-66de0ba66cec] Started GET "/" for 172.17.0.1 at 2024-09-07 16:37:20 +0000
+I, [2024-09-07T16:37:20.874116 #640]  INFO -- : [9d6c8dd0-8a48-438a-be57-66de0ba66cec] Processing by BooksController#index as HTML
+I, [2024-09-07T16:37:20.879426 #640]  INFO -- : [9d6c8dd0-8a48-438a-be57-66de0ba66cec]   Rendered books/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1952)
+I, [2024-09-07T16:37:20.880052 #640]  INFO -- : [9d6c8dd0-8a48-438a-be57-66de0ba66cec]   Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 1983)
+I, [2024-09-07T16:37:20.880718 #640]  INFO -- : [9d6c8dd0-8a48-438a-be57-66de0ba66cec] Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2210)
+F, [2024-09-07T16:37:20.885833 #640] FATAL -- : [9d6c8dd0-8a48-438a-be57-66de0ba66cec]   
+[9d6c8dd0-8a48-438a-be57-66de0ba66cec] ActionView::Template::Error (We could not find your database: test_app_production. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+[9d6c8dd0-8a48-438a-be57-66de0ba66cec]     4: <h1>This is a test version!</h1>
+[9d6c8dd0-8a48-438a-be57-66de0ba66cec]     5: 
+[9d6c8dd0-8a48-438a-be57-66de0ba66cec]     6: <div id="books">
+[9d6c8dd0-8a48-438a-be57-66de0ba66cec]     7:   <% @books.each do |book| %>
+[9d6c8dd0-8a48-438a-be57-66de0ba66cec]     8:     <%= render book %>
+[9d6c8dd0-8a48-438a-be57-66de0ba66cec]     9:     <p>
+[9d6c8dd0-8a48-438a-be57-66de0ba66cec]    10:       <%= link_to "Show this book", book %>
+[9d6c8dd0-8a48-438a-be57-66de0ba66cec]   
+[9d6c8dd0-8a48-438a-be57-66de0ba66cec] app/views/books/index.html.erb:7
+I, [2024-09-07T16:37:21.036234 #640]  INFO -- : [5431de7e-4a4e-46de-b553-2e05ab8c2869] Started GET "/" for 172.17.0.1 at 2024-09-07 16:37:21 +0000
+I, [2024-09-07T16:37:21.037415 #640]  INFO -- : [5431de7e-4a4e-46de-b553-2e05ab8c2869] Processing by BooksController#index as HTML
+I, [2024-09-07T16:37:21.042151 #640]  INFO -- : [5431de7e-4a4e-46de-b553-2e05ab8c2869]   Rendered books/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1951)
+I, [2024-09-07T16:37:21.042718 #640]  INFO -- : [5431de7e-4a4e-46de-b553-2e05ab8c2869]   Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1981)
+I, [2024-09-07T16:37:21.043299 #640]  INFO -- : [5431de7e-4a4e-46de-b553-2e05ab8c2869] Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2176)
+F, [2024-09-07T16:37:21.047665 #640] FATAL -- : [5431de7e-4a4e-46de-b553-2e05ab8c2869]   
+[5431de7e-4a4e-46de-b553-2e05ab8c2869] ActionView::Template::Error (We could not find your database: test_app_production. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+[5431de7e-4a4e-46de-b553-2e05ab8c2869]     4: <h1>This is a test version!</h1>
+[5431de7e-4a4e-46de-b553-2e05ab8c2869]     5: 
+[5431de7e-4a4e-46de-b553-2e05ab8c2869]     6: <div id="books">
+[5431de7e-4a4e-46de-b553-2e05ab8c2869]     7:   <% @books.each do |book| %>
+[5431de7e-4a4e-46de-b553-2e05ab8c2869]     8:     <%= render book %>
+[5431de7e-4a4e-46de-b553-2e05ab8c2869]     9:     <p>
+[5431de7e-4a4e-46de-b553-2e05ab8c2869]    10:       <%= link_to "Show this book", book %>
+[5431de7e-4a4e-46de-b553-2e05ab8c2869]   
+[5431de7e-4a4e-46de-b553-2e05ab8c2869] app/views/books/index.html.erb:7
+I, [2024-09-07T16:37:21.203003 #640]  INFO -- : [8207e8ee-a3b8-42d4-9297-d49f0448dc49] Started GET "/" for 172.17.0.1 at 2024-09-07 16:37:21 +0000
+I, [2024-09-07T16:37:21.204132 #640]  INFO -- : [8207e8ee-a3b8-42d4-9297-d49f0448dc49] Processing by BooksController#index as HTML
+I, [2024-09-07T16:37:21.231310 #640]  INFO -- : [8207e8ee-a3b8-42d4-9297-d49f0448dc49]   Rendered books/index.html.erb within layouts/application (Duration: 26.2ms | Allocations: 1951)
+I, [2024-09-07T16:37:21.231626 #640]  INFO -- : [8207e8ee-a3b8-42d4-9297-d49f0448dc49]   Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 1981)
+I, [2024-09-07T16:37:21.231920 #640]  INFO -- : [8207e8ee-a3b8-42d4-9297-d49f0448dc49] Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms | Allocations: 2176)
+F, [2024-09-07T16:37:21.243925 #640] FATAL -- : [8207e8ee-a3b8-42d4-9297-d49f0448dc49]   
+[8207e8ee-a3b8-42d4-9297-d49f0448dc49] ActionView::Template::Error (We could not find your database: test_app_production. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+[8207e8ee-a3b8-42d4-9297-d49f0448dc49]     4: <h1>This is a test version!</h1>
+[8207e8ee-a3b8-42d4-9297-d49f0448dc49]     5: 
+[8207e8ee-a3b8-42d4-9297-d49f0448dc49]     6: <div id="books">
+[8207e8ee-a3b8-42d4-9297-d49f0448dc49]     7:   <% @books.each do |book| %>
+[8207e8ee-a3b8-42d4-9297-d49f0448dc49]     8:     <%= render book %>
+[8207e8ee-a3b8-42d4-9297-d49f0448dc49]     9:     <p>
+[8207e8ee-a3b8-42d4-9297-d49f0448dc49]    10:       <%= link_to "Show this book", book %>
+[8207e8ee-a3b8-42d4-9297-d49f0448dc49]   
+[8207e8ee-a3b8-42d4-9297-d49f0448dc49] app/views/books/index.html.erb:7
+I, [2024-09-07T16:37:21.352612 #640]  INFO -- : [7b515496-67b0-4c94-8677-d5bfea694ce9] Started GET "/" for 172.17.0.1 at 2024-09-07 16:37:21 +0000
+I, [2024-09-07T16:37:21.358489 #640]  INFO -- : [7b515496-67b0-4c94-8677-d5bfea694ce9] Processing by BooksController#index as HTML
+I, [2024-09-07T16:37:21.377597 #640]  INFO -- : [7b515496-67b0-4c94-8677-d5bfea694ce9]   Rendered books/index.html.erb within layouts/application (Duration: 18.2ms | Allocations: 1951)
+I, [2024-09-07T16:37:21.378110 #640]  INFO -- : [7b515496-67b0-4c94-8677-d5bfea694ce9]   Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 1981)
+I, [2024-09-07T16:37:21.378630 #640]  INFO -- : [7b515496-67b0-4c94-8677-d5bfea694ce9] Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 2176)
+F, [2024-09-07T16:37:21.382304 #640] FATAL -- : [7b515496-67b0-4c94-8677-d5bfea694ce9]   
+[7b515496-67b0-4c94-8677-d5bfea694ce9] ActionView::Template::Error (We could not find your database: test_app_production. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+[7b515496-67b0-4c94-8677-d5bfea694ce9]     4: <h1>This is a test version!</h1>
+[7b515496-67b0-4c94-8677-d5bfea694ce9]     5: 
+[7b515496-67b0-4c94-8677-d5bfea694ce9]     6: <div id="books">
+[7b515496-67b0-4c94-8677-d5bfea694ce9]     7:   <% @books.each do |book| %>
+[7b515496-67b0-4c94-8677-d5bfea694ce9]     8:     <%= render book %>
+[7b515496-67b0-4c94-8677-d5bfea694ce9]     9:     <p>
+[7b515496-67b0-4c94-8677-d5bfea694ce9]    10:       <%= link_to "Show this book", book %>
+[7b515496-67b0-4c94-8677-d5bfea694ce9]   
+[7b515496-67b0-4c94-8677-d5bfea694ce9] app/views/books/index.html.erb:7
+I, [2024-09-07T16:37:21.858591 #640]  INFO -- : [83bfec83-ee04-43a8-a6d6-8035842703ef] Started GET "/" for 172.17.0.1 at 2024-09-07 16:37:21 +0000
+I, [2024-09-07T16:37:21.859480 #640]  INFO -- : [83bfec83-ee04-43a8-a6d6-8035842703ef] Processing by BooksController#index as HTML
+I, [2024-09-07T16:37:21.865052 #640]  INFO -- : [83bfec83-ee04-43a8-a6d6-8035842703ef]   Rendered books/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1952)
+I, [2024-09-07T16:37:21.865686 #640]  INFO -- : [83bfec83-ee04-43a8-a6d6-8035842703ef]   Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1983)
+I, [2024-09-07T16:37:21.866049 #640]  INFO -- : [83bfec83-ee04-43a8-a6d6-8035842703ef] Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2187)
+F, [2024-09-07T16:37:21.870326 #640] FATAL -- : [83bfec83-ee04-43a8-a6d6-8035842703ef]   
+[83bfec83-ee04-43a8-a6d6-8035842703ef] ActionView::Template::Error (We could not find your database: test_app_production. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+[83bfec83-ee04-43a8-a6d6-8035842703ef]     4: <h1>This is a test version!</h1>
+[83bfec83-ee04-43a8-a6d6-8035842703ef]     5: 
+[83bfec83-ee04-43a8-a6d6-8035842703ef]     6: <div id="books">
+[83bfec83-ee04-43a8-a6d6-8035842703ef]     7:   <% @books.each do |book| %>
+[83bfec83-ee04-43a8-a6d6-8035842703ef]     8:     <%= render book %>
+[83bfec83-ee04-43a8-a6d6-8035842703ef]     9:     <p>
+[83bfec83-ee04-43a8-a6d6-8035842703ef]    10:       <%= link_to "Show this book", book %>
+[83bfec83-ee04-43a8-a6d6-8035842703ef]   
+[83bfec83-ee04-43a8-a6d6-8035842703ef] app/views/books/index.html.erb:7
+I, [2024-09-07T16:37:22.019476 #640]  INFO -- : [f1676cd1-47dc-42a8-b9c9-36cc80c4b377] Started GET "/" for 172.17.0.1 at 2024-09-07 16:37:22 +0000
+I, [2024-09-07T16:37:22.020559 #640]  INFO -- : [f1676cd1-47dc-42a8-b9c9-36cc80c4b377] Processing by BooksController#index as HTML
+I, [2024-09-07T16:37:22.025870 #640]  INFO -- : [f1676cd1-47dc-42a8-b9c9-36cc80c4b377]   Rendered books/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1952)
+I, [2024-09-07T16:37:22.026784 #640]  INFO -- : [f1676cd1-47dc-42a8-b9c9-36cc80c4b377]   Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 1982)
+I, [2024-09-07T16:37:22.027445 #640]  INFO -- : [f1676cd1-47dc-42a8-b9c9-36cc80c4b377] Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2177)
+F, [2024-09-07T16:37:22.033810 #640] FATAL -- : [f1676cd1-47dc-42a8-b9c9-36cc80c4b377]   
+[f1676cd1-47dc-42a8-b9c9-36cc80c4b377] ActionView::Template::Error (We could not find your database: test_app_production. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+[f1676cd1-47dc-42a8-b9c9-36cc80c4b377]     4: <h1>This is a test version!</h1>
+[f1676cd1-47dc-42a8-b9c9-36cc80c4b377]     5: 
+[f1676cd1-47dc-42a8-b9c9-36cc80c4b377]     6: <div id="books">
+[f1676cd1-47dc-42a8-b9c9-36cc80c4b377]     7:   <% @books.each do |book| %>
+[f1676cd1-47dc-42a8-b9c9-36cc80c4b377]     8:     <%= render book %>
+[f1676cd1-47dc-42a8-b9c9-36cc80c4b377]     9:     <p>
+[f1676cd1-47dc-42a8-b9c9-36cc80c4b377]    10:       <%= link_to "Show this book", book %>
+[f1676cd1-47dc-42a8-b9c9-36cc80c4b377]   
+[f1676cd1-47dc-42a8-b9c9-36cc80c4b377] app/views/books/index.html.erb:7
+I, [2024-09-07T16:37:22.185282 #640]  INFO -- : [5be5e2f5-ca07-4402-acc4-3def3010012e] Started GET "/" for 172.17.0.1 at 2024-09-07 16:37:22 +0000
+I, [2024-09-07T16:37:22.186285 #640]  INFO -- : [5be5e2f5-ca07-4402-acc4-3def3010012e] Processing by BooksController#index as HTML
+I, [2024-09-07T16:37:22.192025 #640]  INFO -- : [5be5e2f5-ca07-4402-acc4-3def3010012e]   Rendered books/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1951)
+I, [2024-09-07T16:37:22.192480 #640]  INFO -- : [5be5e2f5-ca07-4402-acc4-3def3010012e]   Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 1981)
+I, [2024-09-07T16:37:22.193168 #640]  INFO -- : [5be5e2f5-ca07-4402-acc4-3def3010012e] Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2176)
+F, [2024-09-07T16:37:22.196885 #640] FATAL -- : [5be5e2f5-ca07-4402-acc4-3def3010012e]   
+[5be5e2f5-ca07-4402-acc4-3def3010012e] ActionView::Template::Error (We could not find your database: test_app_production. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+[5be5e2f5-ca07-4402-acc4-3def3010012e]     4: <h1>This is a test version!</h1>
+[5be5e2f5-ca07-4402-acc4-3def3010012e]     5: 
+[5be5e2f5-ca07-4402-acc4-3def3010012e]     6: <div id="books">
+[5be5e2f5-ca07-4402-acc4-3def3010012e]     7:   <% @books.each do |book| %>
+[5be5e2f5-ca07-4402-acc4-3def3010012e]     8:     <%= render book %>
+[5be5e2f5-ca07-4402-acc4-3def3010012e]     9:     <p>
+[5be5e2f5-ca07-4402-acc4-3def3010012e]    10:       <%= link_to "Show this book", book %>
+[5be5e2f5-ca07-4402-acc4-3def3010012e]   
+[5be5e2f5-ca07-4402-acc4-3def3010012e] app/views/books/index.html.erb:7
+I, [2024-09-07T16:37:22.357522 #640]  INFO -- : [ceba176e-71bc-4ab0-80fd-5bc9049b1a5e] Started GET "/" for 172.17.0.1 at 2024-09-07 16:37:22 +0000
+I, [2024-09-07T16:37:22.358264 #640]  INFO -- : [ceba176e-71bc-4ab0-80fd-5bc9049b1a5e] Processing by BooksController#index as HTML
+I, [2024-09-07T16:37:22.363627 #640]  INFO -- : [ceba176e-71bc-4ab0-80fd-5bc9049b1a5e]   Rendered books/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1951)
+I, [2024-09-07T16:37:22.364445 #640]  INFO -- : [ceba176e-71bc-4ab0-80fd-5bc9049b1a5e]   Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 1981)
+I, [2024-09-07T16:37:22.365103 #640]  INFO -- : [ceba176e-71bc-4ab0-80fd-5bc9049b1a5e] Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2176)
+F, [2024-09-07T16:37:22.369756 #640] FATAL -- : [ceba176e-71bc-4ab0-80fd-5bc9049b1a5e]   
+[ceba176e-71bc-4ab0-80fd-5bc9049b1a5e] ActionView::Template::Error (We could not find your database: test_app_production. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+[ceba176e-71bc-4ab0-80fd-5bc9049b1a5e]     4: <h1>This is a test version!</h1>
+[ceba176e-71bc-4ab0-80fd-5bc9049b1a5e]     5: 
+[ceba176e-71bc-4ab0-80fd-5bc9049b1a5e]     6: <div id="books">
+[ceba176e-71bc-4ab0-80fd-5bc9049b1a5e]     7:   <% @books.each do |book| %>
+[ceba176e-71bc-4ab0-80fd-5bc9049b1a5e]     8:     <%= render book %>
+[ceba176e-71bc-4ab0-80fd-5bc9049b1a5e]     9:     <p>
+[ceba176e-71bc-4ab0-80fd-5bc9049b1a5e]    10:       <%= link_to "Show this book", book %>
+[ceba176e-71bc-4ab0-80fd-5bc9049b1a5e]   
+[ceba176e-71bc-4ab0-80fd-5bc9049b1a5e] app/views/books/index.html.erb:7
+I, [2024-09-07T16:43:34.423898 #716]  INFO -- : [a4b4248d-7712-441a-9e90-0653ae47fa98] Started GET "/" for 172.17.0.1 at 2024-09-07 16:43:34 +0000
+I, [2024-09-07T16:43:34.430114 #716]  INFO -- : [a4b4248d-7712-441a-9e90-0653ae47fa98] Processing by BooksController#index as HTML
+I, [2024-09-07T16:43:34.467581 #716]  INFO -- : [a4b4248d-7712-441a-9e90-0653ae47fa98]   Rendered books/index.html.erb within layouts/application (Duration: 23.3ms | Allocations: 5825)
+I, [2024-09-07T16:43:34.469195 #716]  INFO -- : [a4b4248d-7712-441a-9e90-0653ae47fa98]   Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 5890)
+I, [2024-09-07T16:43:34.469711 #716]  INFO -- : [a4b4248d-7712-441a-9e90-0653ae47fa98] Completed 500 Internal Server Error in 39ms (ActiveRecord: 4.0ms | Allocations: 7615)
+F, [2024-09-07T16:43:34.474455 #716] FATAL -- : [a4b4248d-7712-441a-9e90-0653ae47fa98]   
+[a4b4248d-7712-441a-9e90-0653ae47fa98] ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "books" does not exist
+LINE 1: SELECT "books".* FROM "books"
+                              ^
+):
+[a4b4248d-7712-441a-9e90-0653ae47fa98]     4: <h1>This is a test version!</h1>
+[a4b4248d-7712-441a-9e90-0653ae47fa98]     5: 
+[a4b4248d-7712-441a-9e90-0653ae47fa98]     6: <div id="books">
+[a4b4248d-7712-441a-9e90-0653ae47fa98]     7:   <% @books.each do |book| %>
+[a4b4248d-7712-441a-9e90-0653ae47fa98]     8:     <%= render book %>
+[a4b4248d-7712-441a-9e90-0653ae47fa98]     9:     <p>
+[a4b4248d-7712-441a-9e90-0653ae47fa98]    10:       <%= link_to "Show this book", book %>
+[a4b4248d-7712-441a-9e90-0653ae47fa98]   
+[a4b4248d-7712-441a-9e90-0653ae47fa98] app/views/books/index.html.erb:7
+I, [2024-09-07T16:43:35.694044 #716]  INFO -- : [7d833493-23c8-4930-8ffa-2b5af983b588] Started GET "/" for 172.17.0.1 at 2024-09-07 16:43:35 +0000
+I, [2024-09-07T16:43:35.694936 #716]  INFO -- : [7d833493-23c8-4930-8ffa-2b5af983b588] Processing by BooksController#index as HTML
+I, [2024-09-07T16:43:35.697342 #716]  INFO -- : [7d833493-23c8-4930-8ffa-2b5af983b588]   Rendered books/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1100)
+I, [2024-09-07T16:43:35.697888 #716]  INFO -- : [7d833493-23c8-4930-8ffa-2b5af983b588]   Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1132)
+I, [2024-09-07T16:43:35.698519 #716]  INFO -- : [7d833493-23c8-4930-8ffa-2b5af983b588] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.3ms | Allocations: 1381)
+F, [2024-09-07T16:43:35.702994 #716] FATAL -- : [7d833493-23c8-4930-8ffa-2b5af983b588]   
+[7d833493-23c8-4930-8ffa-2b5af983b588] ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "books" does not exist
+LINE 1: SELECT "books".* FROM "books"
+                              ^
+):
+[7d833493-23c8-4930-8ffa-2b5af983b588]     4: <h1>This is a test version!</h1>
+[7d833493-23c8-4930-8ffa-2b5af983b588]     5: 
+[7d833493-23c8-4930-8ffa-2b5af983b588]     6: <div id="books">
+[7d833493-23c8-4930-8ffa-2b5af983b588]     7:   <% @books.each do |book| %>
+[7d833493-23c8-4930-8ffa-2b5af983b588]     8:     <%= render book %>
+[7d833493-23c8-4930-8ffa-2b5af983b588]     9:     <p>
+[7d833493-23c8-4930-8ffa-2b5af983b588]    10:       <%= link_to "Show this book", book %>
+[7d833493-23c8-4930-8ffa-2b5af983b588]   
+[7d833493-23c8-4930-8ffa-2b5af983b588] app/views/books/index.html.erb:7
+I, [2024-09-07T16:44:05.305124 #735]  INFO -- : Migrating to CreateBooks (20240823155448)
+I, [2024-09-07T16:44:35.648963 #745]  INFO -- : [3d618969-5d74-4266-9eaa-ea67b7475baf] Started GET "/" for 172.17.0.1 at 2024-09-07 16:44:35 +0000
+I, [2024-09-07T16:44:35.653587 #745]  INFO -- : [3d618969-5d74-4266-9eaa-ea67b7475baf] Processing by BooksController#index as HTML
+I, [2024-09-07T16:44:35.704024 #745]  INFO -- : [3d618969-5d74-4266-9eaa-ea67b7475baf]   Rendered books/index.html.erb within layouts/application (Duration: 34.0ms | Allocations: 9979)
+I, [2024-09-07T16:44:35.706403 #745]  INFO -- : [3d618969-5d74-4266-9eaa-ea67b7475baf]   Rendered layout layouts/application.html.erb (Duration: 36.4ms | Allocations: 10699)
+I, [2024-09-07T16:44:35.706697 #745]  INFO -- : [3d618969-5d74-4266-9eaa-ea67b7475baf] Completed 500 Internal Server Error in 53ms (ActiveRecord: 6.2ms | Allocations: 12419)
+F, [2024-09-07T16:44:35.708622 #745] FATAL -- : [3d618969-5d74-4266-9eaa-ea67b7475baf]   
+[3d618969-5d74-4266-9eaa-ea67b7475baf] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[3d618969-5d74-4266-9eaa-ea67b7475baf]      6:     <%= csrf_meta_tags %>
+[3d618969-5d74-4266-9eaa-ea67b7475baf]      7:     <%= csp_meta_tag %>
+[3d618969-5d74-4266-9eaa-ea67b7475baf]      8: 
+[3d618969-5d74-4266-9eaa-ea67b7475baf]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[3d618969-5d74-4266-9eaa-ea67b7475baf]     10:     <%= javascript_importmap_tags %>
+[3d618969-5d74-4266-9eaa-ea67b7475baf]     11:   </head>
+[3d618969-5d74-4266-9eaa-ea67b7475baf]     12: 
+[3d618969-5d74-4266-9eaa-ea67b7475baf]   
+[3d618969-5d74-4266-9eaa-ea67b7475baf] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:44:36.625351 #745]  INFO -- : [f158fc59-baa9-4e12-9551-4f868e09d500] Started GET "/" for 172.17.0.1 at 2024-09-07 16:44:36 +0000
+I, [2024-09-07T16:44:36.626767 #745]  INFO -- : [f158fc59-baa9-4e12-9551-4f868e09d500] Processing by BooksController#index as HTML
+I, [2024-09-07T16:44:36.648740 #745]  INFO -- : [f158fc59-baa9-4e12-9551-4f868e09d500]   Rendered books/index.html.erb within layouts/application (Duration: 16.8ms | Allocations: 1641)
+I, [2024-09-07T16:44:36.649532 #745]  INFO -- : [f158fc59-baa9-4e12-9551-4f868e09d500]   Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 1933)
+I, [2024-09-07T16:44:36.649873 #745]  INFO -- : [f158fc59-baa9-4e12-9551-4f868e09d500] Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.4ms | Allocations: 2172)
+F, [2024-09-07T16:44:36.656430 #745] FATAL -- : [f158fc59-baa9-4e12-9551-4f868e09d500]   
+[f158fc59-baa9-4e12-9551-4f868e09d500] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[f158fc59-baa9-4e12-9551-4f868e09d500]      6:     <%= csrf_meta_tags %>
+[f158fc59-baa9-4e12-9551-4f868e09d500]      7:     <%= csp_meta_tag %>
+[f158fc59-baa9-4e12-9551-4f868e09d500]      8: 
+[f158fc59-baa9-4e12-9551-4f868e09d500]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[f158fc59-baa9-4e12-9551-4f868e09d500]     10:     <%= javascript_importmap_tags %>
+[f158fc59-baa9-4e12-9551-4f868e09d500]     11:   </head>
+[f158fc59-baa9-4e12-9551-4f868e09d500]     12: 
+[f158fc59-baa9-4e12-9551-4f868e09d500]   
+[f158fc59-baa9-4e12-9551-4f868e09d500] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:44:36.777088 #745]  INFO -- : [0f7130c4-2479-4476-8844-af9fafa0a77e] Started GET "/" for 172.17.0.1 at 2024-09-07 16:44:36 +0000
+I, [2024-09-07T16:44:36.783504 #745]  INFO -- : [0f7130c4-2479-4476-8844-af9fafa0a77e] Processing by BooksController#index as HTML
+I, [2024-09-07T16:44:36.797312 #745]  INFO -- : [0f7130c4-2479-4476-8844-af9fafa0a77e]   Rendered books/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 1565)
+I, [2024-09-07T16:44:36.798273 #745]  INFO -- : [0f7130c4-2479-4476-8844-af9fafa0a77e]   Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 1855)
+I, [2024-09-07T16:44:36.798774 #745]  INFO -- : [0f7130c4-2479-4476-8844-af9fafa0a77e] Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.3ms | Allocations: 2047)
+F, [2024-09-07T16:44:36.802756 #745] FATAL -- : [0f7130c4-2479-4476-8844-af9fafa0a77e]   
+[0f7130c4-2479-4476-8844-af9fafa0a77e] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[0f7130c4-2479-4476-8844-af9fafa0a77e]      6:     <%= csrf_meta_tags %>
+[0f7130c4-2479-4476-8844-af9fafa0a77e]      7:     <%= csp_meta_tag %>
+[0f7130c4-2479-4476-8844-af9fafa0a77e]      8: 
+[0f7130c4-2479-4476-8844-af9fafa0a77e]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[0f7130c4-2479-4476-8844-af9fafa0a77e]     10:     <%= javascript_importmap_tags %>
+[0f7130c4-2479-4476-8844-af9fafa0a77e]     11:   </head>
+[0f7130c4-2479-4476-8844-af9fafa0a77e]     12: 
+[0f7130c4-2479-4476-8844-af9fafa0a77e]   
+[0f7130c4-2479-4476-8844-af9fafa0a77e] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:44:36.922795 #745]  INFO -- : [210200f7-c11d-44a8-a59b-8405d43393ff] Started GET "/" for 172.17.0.1 at 2024-09-07 16:44:36 +0000
+I, [2024-09-07T16:44:36.923785 #745]  INFO -- : [210200f7-c11d-44a8-a59b-8405d43393ff] Processing by BooksController#index as HTML
+I, [2024-09-07T16:44:36.926740 #745]  INFO -- : [210200f7-c11d-44a8-a59b-8405d43393ff]   Rendered books/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1565)
+I, [2024-09-07T16:44:36.927467 #745]  INFO -- : [210200f7-c11d-44a8-a59b-8405d43393ff]   Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1855)
+I, [2024-09-07T16:44:36.927785 #745]  INFO -- : [210200f7-c11d-44a8-a59b-8405d43393ff] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms | Allocations: 2047)
+F, [2024-09-07T16:44:36.930575 #745] FATAL -- : [210200f7-c11d-44a8-a59b-8405d43393ff]   
+[210200f7-c11d-44a8-a59b-8405d43393ff] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[210200f7-c11d-44a8-a59b-8405d43393ff]      6:     <%= csrf_meta_tags %>
+[210200f7-c11d-44a8-a59b-8405d43393ff]      7:     <%= csp_meta_tag %>
+[210200f7-c11d-44a8-a59b-8405d43393ff]      8: 
+[210200f7-c11d-44a8-a59b-8405d43393ff]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[210200f7-c11d-44a8-a59b-8405d43393ff]     10:     <%= javascript_importmap_tags %>
+[210200f7-c11d-44a8-a59b-8405d43393ff]     11:   </head>
+[210200f7-c11d-44a8-a59b-8405d43393ff]     12: 
+[210200f7-c11d-44a8-a59b-8405d43393ff]   
+[210200f7-c11d-44a8-a59b-8405d43393ff] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:44:37.080951 #745]  INFO -- : [36f8eba9-6401-4a30-b3e4-c95b6c506420] Started GET "/" for 172.17.0.1 at 2024-09-07 16:44:37 +0000
+I, [2024-09-07T16:44:37.082147 #745]  INFO -- : [36f8eba9-6401-4a30-b3e4-c95b6c506420] Processing by BooksController#index as HTML
+I, [2024-09-07T16:44:37.085530 #745]  INFO -- : [36f8eba9-6401-4a30-b3e4-c95b6c506420]   Rendered books/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1565)
+I, [2024-09-07T16:44:37.086805 #745]  INFO -- : [36f8eba9-6401-4a30-b3e4-c95b6c506420]   Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1855)
+I, [2024-09-07T16:44:37.087187 #745]  INFO -- : [36f8eba9-6401-4a30-b3e4-c95b6c506420] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms | Allocations: 2047)
+F, [2024-09-07T16:44:37.091299 #745] FATAL -- : [36f8eba9-6401-4a30-b3e4-c95b6c506420]   
+[36f8eba9-6401-4a30-b3e4-c95b6c506420] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[36f8eba9-6401-4a30-b3e4-c95b6c506420]      6:     <%= csrf_meta_tags %>
+[36f8eba9-6401-4a30-b3e4-c95b6c506420]      7:     <%= csp_meta_tag %>
+[36f8eba9-6401-4a30-b3e4-c95b6c506420]      8: 
+[36f8eba9-6401-4a30-b3e4-c95b6c506420]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[36f8eba9-6401-4a30-b3e4-c95b6c506420]     10:     <%= javascript_importmap_tags %>
+[36f8eba9-6401-4a30-b3e4-c95b6c506420]     11:   </head>
+[36f8eba9-6401-4a30-b3e4-c95b6c506420]     12: 
+[36f8eba9-6401-4a30-b3e4-c95b6c506420]   
+[36f8eba9-6401-4a30-b3e4-c95b6c506420] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:44:37.236568 #745]  INFO -- : [8382c906-1e58-4ef8-a70c-a086faa63f7e] Started GET "/" for 172.17.0.1 at 2024-09-07 16:44:37 +0000
+I, [2024-09-07T16:44:37.237833 #745]  INFO -- : [8382c906-1e58-4ef8-a70c-a086faa63f7e] Processing by BooksController#index as HTML
+I, [2024-09-07T16:44:37.240903 #745]  INFO -- : [8382c906-1e58-4ef8-a70c-a086faa63f7e]   Rendered books/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1565)
+I, [2024-09-07T16:44:37.241733 #745]  INFO -- : [8382c906-1e58-4ef8-a70c-a086faa63f7e]   Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1855)
+I, [2024-09-07T16:44:37.242129 #745]  INFO -- : [8382c906-1e58-4ef8-a70c-a086faa63f7e] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms | Allocations: 2047)
+F, [2024-09-07T16:44:37.246217 #745] FATAL -- : [8382c906-1e58-4ef8-a70c-a086faa63f7e]   
+[8382c906-1e58-4ef8-a70c-a086faa63f7e] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[8382c906-1e58-4ef8-a70c-a086faa63f7e]      6:     <%= csrf_meta_tags %>
+[8382c906-1e58-4ef8-a70c-a086faa63f7e]      7:     <%= csp_meta_tag %>
+[8382c906-1e58-4ef8-a70c-a086faa63f7e]      8: 
+[8382c906-1e58-4ef8-a70c-a086faa63f7e]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[8382c906-1e58-4ef8-a70c-a086faa63f7e]     10:     <%= javascript_importmap_tags %>
+[8382c906-1e58-4ef8-a70c-a086faa63f7e]     11:   </head>
+[8382c906-1e58-4ef8-a70c-a086faa63f7e]     12: 
+[8382c906-1e58-4ef8-a70c-a086faa63f7e]   
+[8382c906-1e58-4ef8-a70c-a086faa63f7e] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:44:37.402506 #745]  INFO -- : [aed30ca1-dd58-4edd-937a-4809ba27362e] Started GET "/" for 172.17.0.1 at 2024-09-07 16:44:37 +0000
+I, [2024-09-07T16:44:37.403538 #745]  INFO -- : [aed30ca1-dd58-4edd-937a-4809ba27362e] Processing by BooksController#index as HTML
+I, [2024-09-07T16:44:37.406952 #745]  INFO -- : [aed30ca1-dd58-4edd-937a-4809ba27362e]   Rendered books/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1565)
+I, [2024-09-07T16:44:37.407871 #745]  INFO -- : [aed30ca1-dd58-4edd-937a-4809ba27362e]   Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1855)
+I, [2024-09-07T16:44:37.408550 #745]  INFO -- : [aed30ca1-dd58-4edd-937a-4809ba27362e] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms | Allocations: 2047)
+F, [2024-09-07T16:44:37.413777 #745] FATAL -- : [aed30ca1-dd58-4edd-937a-4809ba27362e]   
+[aed30ca1-dd58-4edd-937a-4809ba27362e] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[aed30ca1-dd58-4edd-937a-4809ba27362e]      6:     <%= csrf_meta_tags %>
+[aed30ca1-dd58-4edd-937a-4809ba27362e]      7:     <%= csp_meta_tag %>
+[aed30ca1-dd58-4edd-937a-4809ba27362e]      8: 
+[aed30ca1-dd58-4edd-937a-4809ba27362e]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[aed30ca1-dd58-4edd-937a-4809ba27362e]     10:     <%= javascript_importmap_tags %>
+[aed30ca1-dd58-4edd-937a-4809ba27362e]     11:   </head>
+[aed30ca1-dd58-4edd-937a-4809ba27362e]     12: 
+[aed30ca1-dd58-4edd-937a-4809ba27362e]   
+[aed30ca1-dd58-4edd-937a-4809ba27362e] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:44:37.557403 #745]  INFO -- : [e66ca842-da0e-4cfd-92f0-a170a5780475] Started GET "/" for 172.17.0.1 at 2024-09-07 16:44:37 +0000
+I, [2024-09-07T16:44:37.558176 #745]  INFO -- : [e66ca842-da0e-4cfd-92f0-a170a5780475] Processing by BooksController#index as HTML
+I, [2024-09-07T16:44:37.561095 #745]  INFO -- : [e66ca842-da0e-4cfd-92f0-a170a5780475]   Rendered books/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1565)
+I, [2024-09-07T16:44:37.561798 #745]  INFO -- : [e66ca842-da0e-4cfd-92f0-a170a5780475]   Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1855)
+I, [2024-09-07T16:44:37.562325 #745]  INFO -- : [e66ca842-da0e-4cfd-92f0-a170a5780475] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms | Allocations: 2047)
+F, [2024-09-07T16:44:37.566701 #745] FATAL -- : [e66ca842-da0e-4cfd-92f0-a170a5780475]   
+[e66ca842-da0e-4cfd-92f0-a170a5780475] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[e66ca842-da0e-4cfd-92f0-a170a5780475]      6:     <%= csrf_meta_tags %>
+[e66ca842-da0e-4cfd-92f0-a170a5780475]      7:     <%= csp_meta_tag %>
+[e66ca842-da0e-4cfd-92f0-a170a5780475]      8: 
+[e66ca842-da0e-4cfd-92f0-a170a5780475]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[e66ca842-da0e-4cfd-92f0-a170a5780475]     10:     <%= javascript_importmap_tags %>
+[e66ca842-da0e-4cfd-92f0-a170a5780475]     11:   </head>
+[e66ca842-da0e-4cfd-92f0-a170a5780475]     12: 
+[e66ca842-da0e-4cfd-92f0-a170a5780475]   
+[e66ca842-da0e-4cfd-92f0-a170a5780475] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:44:37.719489 #745]  INFO -- : [9bc46e21-2307-44c8-a942-80f5c3558fb9] Started GET "/" for 172.17.0.1 at 2024-09-07 16:44:37 +0000
+I, [2024-09-07T16:44:37.720774 #745]  INFO -- : [9bc46e21-2307-44c8-a942-80f5c3558fb9] Processing by BooksController#index as HTML
+I, [2024-09-07T16:44:37.723667 #745]  INFO -- : [9bc46e21-2307-44c8-a942-80f5c3558fb9]   Rendered books/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1565)
+I, [2024-09-07T16:44:37.724754 #745]  INFO -- : [9bc46e21-2307-44c8-a942-80f5c3558fb9]   Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1855)
+I, [2024-09-07T16:44:37.725312 #745]  INFO -- : [9bc46e21-2307-44c8-a942-80f5c3558fb9] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms | Allocations: 2047)
+F, [2024-09-07T16:44:37.729133 #745] FATAL -- : [9bc46e21-2307-44c8-a942-80f5c3558fb9]   
+[9bc46e21-2307-44c8-a942-80f5c3558fb9] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[9bc46e21-2307-44c8-a942-80f5c3558fb9]      6:     <%= csrf_meta_tags %>
+[9bc46e21-2307-44c8-a942-80f5c3558fb9]      7:     <%= csp_meta_tag %>
+[9bc46e21-2307-44c8-a942-80f5c3558fb9]      8: 
+[9bc46e21-2307-44c8-a942-80f5c3558fb9]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[9bc46e21-2307-44c8-a942-80f5c3558fb9]     10:     <%= javascript_importmap_tags %>
+[9bc46e21-2307-44c8-a942-80f5c3558fb9]     11:   </head>
+[9bc46e21-2307-44c8-a942-80f5c3558fb9]     12: 
+[9bc46e21-2307-44c8-a942-80f5c3558fb9]   
+[9bc46e21-2307-44c8-a942-80f5c3558fb9] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:44:37.880160 #745]  INFO -- : [505f025e-3482-4b0f-8e2a-73dfdaadc356] Started GET "/" for 172.17.0.1 at 2024-09-07 16:44:37 +0000
+I, [2024-09-07T16:44:37.881380 #745]  INFO -- : [505f025e-3482-4b0f-8e2a-73dfdaadc356] Processing by BooksController#index as HTML
+I, [2024-09-07T16:44:37.884281 #745]  INFO -- : [505f025e-3482-4b0f-8e2a-73dfdaadc356]   Rendered books/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1565)
+I, [2024-09-07T16:44:37.885232 #745]  INFO -- : [505f025e-3482-4b0f-8e2a-73dfdaadc356]   Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1855)
+I, [2024-09-07T16:44:37.885749 #745]  INFO -- : [505f025e-3482-4b0f-8e2a-73dfdaadc356] Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms | Allocations: 2047)
+F, [2024-09-07T16:44:37.889561 #745] FATAL -- : [505f025e-3482-4b0f-8e2a-73dfdaadc356]   
+[505f025e-3482-4b0f-8e2a-73dfdaadc356] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[505f025e-3482-4b0f-8e2a-73dfdaadc356]      6:     <%= csrf_meta_tags %>
+[505f025e-3482-4b0f-8e2a-73dfdaadc356]      7:     <%= csp_meta_tag %>
+[505f025e-3482-4b0f-8e2a-73dfdaadc356]      8: 
+[505f025e-3482-4b0f-8e2a-73dfdaadc356]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[505f025e-3482-4b0f-8e2a-73dfdaadc356]     10:     <%= javascript_importmap_tags %>
+[505f025e-3482-4b0f-8e2a-73dfdaadc356]     11:   </head>
+[505f025e-3482-4b0f-8e2a-73dfdaadc356]     12: 
+[505f025e-3482-4b0f-8e2a-73dfdaadc356]   
+[505f025e-3482-4b0f-8e2a-73dfdaadc356] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:48:04.176746 #789]  INFO -- : [e03e7231-e973-4a8a-bdbf-0baae30361f1] Started GET "/" for 172.17.0.1 at 2024-09-07 16:48:04 +0000
+I, [2024-09-07T16:48:04.181287 #789]  INFO -- : [e03e7231-e973-4a8a-bdbf-0baae30361f1] Processing by BooksController#index as HTML
+I, [2024-09-07T16:48:04.232943 #789]  INFO -- : [e03e7231-e973-4a8a-bdbf-0baae30361f1]   Rendered books/index.html.erb within layouts/application (Duration: 35.2ms | Allocations: 9979)
+I, [2024-09-07T16:48:04.235645 #789]  INFO -- : [e03e7231-e973-4a8a-bdbf-0baae30361f1]   Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 10699)
+I, [2024-09-07T16:48:04.235958 #789]  INFO -- : [e03e7231-e973-4a8a-bdbf-0baae30361f1] Completed 500 Internal Server Error in 54ms (ActiveRecord: 7.0ms | Allocations: 12419)
+F, [2024-09-07T16:48:04.241464 #789] FATAL -- : [e03e7231-e973-4a8a-bdbf-0baae30361f1]   
+[e03e7231-e973-4a8a-bdbf-0baae30361f1] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[e03e7231-e973-4a8a-bdbf-0baae30361f1]      6:     <%= csrf_meta_tags %>
+[e03e7231-e973-4a8a-bdbf-0baae30361f1]      7:     <%= csp_meta_tag %>
+[e03e7231-e973-4a8a-bdbf-0baae30361f1]      8: 
+[e03e7231-e973-4a8a-bdbf-0baae30361f1]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[e03e7231-e973-4a8a-bdbf-0baae30361f1]     10:     <%= javascript_importmap_tags %>
+[e03e7231-e973-4a8a-bdbf-0baae30361f1]     11:   </head>
+[e03e7231-e973-4a8a-bdbf-0baae30361f1]     12: 
+[e03e7231-e973-4a8a-bdbf-0baae30361f1]   
+[e03e7231-e973-4a8a-bdbf-0baae30361f1] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:48:04.905453 #789]  INFO -- : [0d102f37-8197-4c46-bb60-c1262438c0ab] Started GET "/" for 172.17.0.1 at 2024-09-07 16:48:04 +0000
+I, [2024-09-07T16:48:04.906770 #789]  INFO -- : [0d102f37-8197-4c46-bb60-c1262438c0ab] Processing by BooksController#index as HTML
+I, [2024-09-07T16:48:04.926733 #789]  INFO -- : [0d102f37-8197-4c46-bb60-c1262438c0ab]   Rendered books/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1641)
+I, [2024-09-07T16:48:04.930315 #789]  INFO -- : [0d102f37-8197-4c46-bb60-c1262438c0ab]   Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 1933)
+I, [2024-09-07T16:48:04.931157 #789]  INFO -- : [0d102f37-8197-4c46-bb60-c1262438c0ab] Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.3ms | Allocations: 2172)
+F, [2024-09-07T16:48:04.940728 #789] FATAL -- : [0d102f37-8197-4c46-bb60-c1262438c0ab]   
+[0d102f37-8197-4c46-bb60-c1262438c0ab] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[0d102f37-8197-4c46-bb60-c1262438c0ab]      6:     <%= csrf_meta_tags %>
+[0d102f37-8197-4c46-bb60-c1262438c0ab]      7:     <%= csp_meta_tag %>
+[0d102f37-8197-4c46-bb60-c1262438c0ab]      8: 
+[0d102f37-8197-4c46-bb60-c1262438c0ab]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[0d102f37-8197-4c46-bb60-c1262438c0ab]     10:     <%= javascript_importmap_tags %>
+[0d102f37-8197-4c46-bb60-c1262438c0ab]     11:   </head>
+[0d102f37-8197-4c46-bb60-c1262438c0ab]     12: 
+[0d102f37-8197-4c46-bb60-c1262438c0ab]   
+[0d102f37-8197-4c46-bb60-c1262438c0ab] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:48:05.077136 #789]  INFO -- : [cf617ed5-12d6-49bd-a562-8250d0e7b09a] Started GET "/" for 172.17.0.1 at 2024-09-07 16:48:05 +0000
+I, [2024-09-07T16:48:05.082837 #789]  INFO -- : [cf617ed5-12d6-49bd-a562-8250d0e7b09a] Processing by BooksController#index as HTML
+I, [2024-09-07T16:48:05.095103 #789]  INFO -- : [cf617ed5-12d6-49bd-a562-8250d0e7b09a]   Rendered books/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1565)
+I, [2024-09-07T16:48:05.096048 #789]  INFO -- : [cf617ed5-12d6-49bd-a562-8250d0e7b09a]   Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 1855)
+I, [2024-09-07T16:48:05.096820 #789]  INFO -- : [cf617ed5-12d6-49bd-a562-8250d0e7b09a] Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.2ms | Allocations: 2047)
+F, [2024-09-07T16:48:05.100713 #789] FATAL -- : [cf617ed5-12d6-49bd-a562-8250d0e7b09a]   
+[cf617ed5-12d6-49bd-a562-8250d0e7b09a] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[cf617ed5-12d6-49bd-a562-8250d0e7b09a]      6:     <%= csrf_meta_tags %>
+[cf617ed5-12d6-49bd-a562-8250d0e7b09a]      7:     <%= csp_meta_tag %>
+[cf617ed5-12d6-49bd-a562-8250d0e7b09a]      8: 
+[cf617ed5-12d6-49bd-a562-8250d0e7b09a]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[cf617ed5-12d6-49bd-a562-8250d0e7b09a]     10:     <%= javascript_importmap_tags %>
+[cf617ed5-12d6-49bd-a562-8250d0e7b09a]     11:   </head>
+[cf617ed5-12d6-49bd-a562-8250d0e7b09a]     12: 
+[cf617ed5-12d6-49bd-a562-8250d0e7b09a]   
+[cf617ed5-12d6-49bd-a562-8250d0e7b09a] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:48:05.248870 #789]  INFO -- : [4c81692d-ebb7-4f01-9042-3102cdce25da] Started GET "/" for 172.17.0.1 at 2024-09-07 16:48:05 +0000
+I, [2024-09-07T16:48:05.249996 #789]  INFO -- : [4c81692d-ebb7-4f01-9042-3102cdce25da] Processing by BooksController#index as HTML
+I, [2024-09-07T16:48:05.252558 #789]  INFO -- : [4c81692d-ebb7-4f01-9042-3102cdce25da]   Rendered books/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1565)
+I, [2024-09-07T16:48:05.253391 #789]  INFO -- : [4c81692d-ebb7-4f01-9042-3102cdce25da]   Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1855)
+I, [2024-09-07T16:48:05.253773 #789]  INFO -- : [4c81692d-ebb7-4f01-9042-3102cdce25da] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms | Allocations: 2047)
+F, [2024-09-07T16:48:05.257794 #789] FATAL -- : [4c81692d-ebb7-4f01-9042-3102cdce25da]   
+[4c81692d-ebb7-4f01-9042-3102cdce25da] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[4c81692d-ebb7-4f01-9042-3102cdce25da]      6:     <%= csrf_meta_tags %>
+[4c81692d-ebb7-4f01-9042-3102cdce25da]      7:     <%= csp_meta_tag %>
+[4c81692d-ebb7-4f01-9042-3102cdce25da]      8: 
+[4c81692d-ebb7-4f01-9042-3102cdce25da]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[4c81692d-ebb7-4f01-9042-3102cdce25da]     10:     <%= javascript_importmap_tags %>
+[4c81692d-ebb7-4f01-9042-3102cdce25da]     11:   </head>
+[4c81692d-ebb7-4f01-9042-3102cdce25da]     12: 
+[4c81692d-ebb7-4f01-9042-3102cdce25da]   
+[4c81692d-ebb7-4f01-9042-3102cdce25da] app/views/layouts/application.html.erb:9
+I, [2024-09-07T16:56:06.660996 #865]  INFO -- : [4aa4ac4a-4016-46ec-b03f-af8c099862fd] Started GET "/" for 172.17.0.1 at 2024-09-07 16:56:06 +0000
+I, [2024-09-07T16:56:06.667899 #865]  INFO -- : [4aa4ac4a-4016-46ec-b03f-af8c099862fd] Processing by BooksController#index as HTML
+I, [2024-09-07T16:56:06.733748 #865]  INFO -- : [4aa4ac4a-4016-46ec-b03f-af8c099862fd]   Rendered books/index.html.erb within layouts/application (Duration: 47.6ms | Allocations: 9978)
+I, [2024-09-07T16:56:06.773230 #865]  INFO -- : [4aa4ac4a-4016-46ec-b03f-af8c099862fd]   Rendered layout layouts/application.html.erb (Duration: 87.2ms | Allocations: 12405)
+I, [2024-09-07T16:56:06.773788 #865]  INFO -- : [4aa4ac4a-4016-46ec-b03f-af8c099862fd] Completed 200 OK in 106ms (Views: 88.6ms | ActiveRecord: 7.5ms | Allocations: 14178)
+I, [2024-09-07T16:56:33.464905 #882]  INFO -- : [508dd389-a7b3-4e6f-8bab-e56e0aec6d6e] Started GET "/" for 172.17.0.1 at 2024-09-07 16:56:33 +0000
+I, [2024-09-07T16:56:33.469687 #882]  INFO -- : [508dd389-a7b3-4e6f-8bab-e56e0aec6d6e] Processing by BooksController#index as HTML
+I, [2024-09-07T16:56:33.524736 #882]  INFO -- : [508dd389-a7b3-4e6f-8bab-e56e0aec6d6e]   Rendered books/index.html.erb within layouts/application (Duration: 40.1ms | Allocations: 9388)
+I, [2024-09-07T16:56:33.551764 #882]  INFO -- : [508dd389-a7b3-4e6f-8bab-e56e0aec6d6e]   Rendered layout layouts/application.html.erb (Duration: 67.2ms | Allocations: 11778)
+I, [2024-09-07T16:56:33.556911 #882]  INFO -- : [508dd389-a7b3-4e6f-8bab-e56e0aec6d6e] Completed 200 OK in 82ms (Views: 66.1ms | ActiveRecord: 6.2ms | Allocations: 13551)
+I, [2024-09-07T16:58:10.596799 #907]  INFO -- : [cf5cc432-a5ef-4395-aed6-8c15728fdfc2] Started GET "/" for 172.17.0.1 at 2024-09-07 16:58:10 +0000
+I, [2024-09-07T16:58:10.604333 #907]  INFO -- : [cf5cc432-a5ef-4395-aed6-8c15728fdfc2] Processing by BooksController#index as HTML
+I, [2024-09-07T16:58:10.655165 #907]  INFO -- : [cf5cc432-a5ef-4395-aed6-8c15728fdfc2]   Rendered books/index.html.erb within layouts/application (Duration: 34.0ms | Allocations: 9989)
+I, [2024-09-07T16:58:10.683514 #907]  INFO -- : [cf5cc432-a5ef-4395-aed6-8c15728fdfc2]   Rendered layout layouts/application.html.erb (Duration: 62.4ms | Allocations: 12379)
+I, [2024-09-07T16:58:10.683974 #907]  INFO -- : [cf5cc432-a5ef-4395-aed6-8c15728fdfc2] Completed 200 OK in 79ms (Views: 63.0ms | ActiveRecord: 6.0ms | Allocations: 14152)
+I, [2024-09-07T16:59:53.928055 #942]  INFO -- : [f7a5bbb2-0e9f-4590-81e7-bb5b07aa613f] Started GET "/" for 172.17.0.1 at 2024-09-07 16:59:53 +0000
+I, [2024-09-07T16:59:53.932449 #942]  INFO -- : [f7a5bbb2-0e9f-4590-81e7-bb5b07aa613f] Processing by BooksController#index as HTML
+I, [2024-09-07T16:59:53.988924 #942]  INFO -- : [f7a5bbb2-0e9f-4590-81e7-bb5b07aa613f]   Rendered books/index.html.erb within layouts/application (Duration: 39.0ms | Allocations: 9986)
+I, [2024-09-07T16:59:54.022279 #942]  INFO -- : [f7a5bbb2-0e9f-4590-81e7-bb5b07aa613f]   Rendered layout layouts/application.html.erb (Duration: 72.4ms | Allocations: 12376)
+I, [2024-09-07T16:59:54.022858 #942]  INFO -- : [f7a5bbb2-0e9f-4590-81e7-bb5b07aa613f] Completed 200 OK in 90ms (Views: 74.2ms | ActiveRecord: 6.2ms | Allocations: 14149)
+I, [2024-09-07T17:00:52.342876 #967]  INFO -- : [f275b435-d6bb-46e8-8fe1-8f37907849e8] Started GET "/" for 172.17.0.1 at 2024-09-07 17:00:52 +0000
+I, [2024-09-07T17:00:52.350585 #967]  INFO -- : [f275b435-d6bb-46e8-8fe1-8f37907849e8] Processing by BooksController#index as HTML
+I, [2024-09-07T17:00:52.398598 #967]  INFO -- : [f275b435-d6bb-46e8-8fe1-8f37907849e8]   Rendered books/index.html.erb within layouts/application (Duration: 31.0ms | Allocations: 9371)
+I, [2024-09-07T17:00:52.430001 #967]  INFO -- : [f275b435-d6bb-46e8-8fe1-8f37907849e8]   Rendered layout layouts/application.html.erb (Duration: 62.4ms | Allocations: 11761)
+I, [2024-09-07T17:00:52.430658 #967]  INFO -- : [f275b435-d6bb-46e8-8fe1-8f37907849e8] Completed 200 OK in 79ms (Views: 62.7ms | ActiveRecord: 6.2ms | Allocations: 13534)
+I, [2024-09-07T17:00:53.313379 #967]  INFO -- : [738b0359-32a7-469d-a86e-cbd9626553b6] Started GET "/" for 172.17.0.1 at 2024-09-07 17:00:53 +0000
+I, [2024-09-07T17:00:53.319300 #967]  INFO -- : [738b0359-32a7-469d-a86e-cbd9626553b6] Processing by BooksController#index as HTML
+I, [2024-09-07T17:00:53.333945 #967]  INFO -- : [738b0359-32a7-469d-a86e-cbd9626553b6]   Rendered books/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 1029)
+I, [2024-09-07T17:00:53.338979 #967]  INFO -- : [738b0359-32a7-469d-a86e-cbd9626553b6]   Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 1595)
+I, [2024-09-07T17:00:53.339598 #967]  INFO -- : [738b0359-32a7-469d-a86e-cbd9626553b6] Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.3ms | Allocations: 1859)
+I, [2024-09-07T17:00:54.778638 #967]  INFO -- : [564589ba-6e8c-494a-8272-993f1c5d1b21] Started GET "/" for 172.17.0.1 at 2024-09-07 17:00:54 +0000
+I, [2024-09-07T17:00:54.787703 #967]  INFO -- : [564589ba-6e8c-494a-8272-993f1c5d1b21] Processing by BooksController#index as HTML
+I, [2024-09-07T17:00:54.791713 #967]  INFO -- : [564589ba-6e8c-494a-8272-993f1c5d1b21]   Rendered books/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 935)
+I, [2024-09-07T17:00:54.792729 #967]  INFO -- : [564589ba-6e8c-494a-8272-993f1c5d1b21]   Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1500)
+I, [2024-09-07T17:00:54.793310 #967]  INFO -- : [564589ba-6e8c-494a-8272-993f1c5d1b21] Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 1726)
+I, [2024-09-07T17:01:17.964338 #983]  INFO -- : [5eaa10b4-e79c-4417-b7b1-751764d9b301] Started GET "/" for 172.17.0.1 at 2024-09-07 17:01:17 +0000
+I, [2024-09-07T17:01:17.970984 #983]  INFO -- : [5eaa10b4-e79c-4417-b7b1-751764d9b301] Processing by BooksController#index as HTML
+I, [2024-09-07T17:01:18.035406 #983]  INFO -- : [5eaa10b4-e79c-4417-b7b1-751764d9b301]   Rendered books/index.html.erb within layouts/application (Duration: 44.2ms | Allocations: 9357)
+I, [2024-09-07T17:01:18.055838 #983]  INFO -- : [5eaa10b4-e79c-4417-b7b1-751764d9b301]   Rendered layout layouts/application.html.erb (Duration: 64.7ms | Allocations: 11747)
+I, [2024-09-07T17:01:18.056423 #983]  INFO -- : [5eaa10b4-e79c-4417-b7b1-751764d9b301] Completed 200 OK in 85ms (Views: 66.4ms | ActiveRecord: 7.4ms | Allocations: 13521)

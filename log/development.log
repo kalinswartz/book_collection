@@ -454,3 +454,318 @@ Processing by BooksController#index as HTML
 Completed 200 OK in 1811ms (Views: 1720.0ms | ActiveRecord: 4.8ms | Allocations: 50916)
 
 
+  [1m[36mBook Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "books" LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mBook Count (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "books"[0m
+  [1m[36mBook Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "books"[0m
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books" LIMIT $1 OFFSET $2[0m  [["LIMIT", 2], ["OFFSET", 0]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (1.7ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "The Life of Pi"], ["created_at", "2024-09-07 16:06:48.057752"], ["updated_at", "2024-09-07 16:06:48.057752"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Harry Potter"], ["created_at", "2024-09-07 16:06:48.064432"], ["updated_at", "2024-09-07 16:06:48.064432"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Howls Moving Castle"], ["created_at", "2024-09-07 16:06:48.068784"], ["updated_at", "2024-09-07 16:06:48.068784"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "A Guide to Among Us"], ["created_at", "2024-09-07 16:06:48.073239"], ["updated_at", "2024-09-07 16:06:48.073239"]]
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Starbucks Secrets"], ["created_at", "2024-09-07 16:06:48.078772"], ["updated_at", "2024-09-07 16:06:48.078772"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Jif's Bio"], ["created_at", "2024-09-07 16:06:48.083144"], ["updated_at", "2024-09-07 16:06:48.083144"]]
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "The Life of Pi"], ["created_at", "2024-09-07 16:08:00.381646"], ["updated_at", "2024-09-07 16:08:00.381646"]]
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Harry Potter"], ["created_at", "2024-09-07 16:08:00.387079"], ["updated_at", "2024-09-07 16:08:00.387079"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Howls Moving Castle"], ["created_at", "2024-09-07 16:08:00.391298"], ["updated_at", "2024-09-07 16:08:00.391298"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "A Guide to Among Us"], ["created_at", "2024-09-07 16:08:00.395569"], ["updated_at", "2024-09-07 16:08:00.395569"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Starbucks Secrets"], ["created_at", "2024-09-07 16:08:00.399815"], ["updated_at", "2024-09-07 16:08:00.399815"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Jif's Bio"], ["created_at", "2024-09-07 16:08:00.403988"], ["updated_at", "2024-09-07 16:08:00.403988"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 172.17.0.1 at 2024-09-07 16:14:19 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:7
+  Rendered books/_book.html.erb (Duration: 3.1ms | Allocations: 234)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/index.html.erb within layouts/application (Duration: 50.9ms | Allocations: 7845)
+  Rendered layout layouts/application.html.erb (Duration: 576.4ms | Allocations: 41034)
+Completed 200 OK in 647ms (Views: 585.2ms | ActiveRecord: 2.6ms | Allocations: 45949)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 172.17.0.1 at 2024-09-07 16:15:43 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:7
+  Rendered books/_book.html.erb (Duration: 2.5ms | Allocations: 234)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/index.html.erb within layouts/application (Duration: 31.1ms | Allocations: 8012)
+  Rendered layout layouts/application.html.erb (Duration: 393.4ms | Allocations: 41193)
+Completed 200 OK in 459ms (Views: 402.6ms | ActiveRecord: 2.3ms | Allocations: 46108)
+
+
+Started GET "/" for 172.17.0.1 at 2024-09-07 16:15:53 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:7
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 17)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.3ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 2702)
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 4035)
+Completed 200 OK in 44ms (Views: 33.5ms | ActiveRecord: 0.3ms | Allocations: 4358)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 172.17.0.1 at 2024-09-07 16:16:45 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:7
+  Rendered books/_book.html.erb (Duration: 2.5ms | Allocations: 235)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/index.html.erb within layouts/application (Duration: 32.8ms | Allocations: 8005)
+  Rendered layout layouts/application.html.erb (Duration: 400.4ms | Allocations: 41152)
+Completed 200 OK in 466ms (Views: 408.1ms | ActiveRecord: 2.6ms | Allocations: 46069)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (36.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "test_app_development"[0m
+  [1m[35m (33.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "test_app_test"[0m
+  [1m[35m (1135.0ms)[0m  [1m[35mCREATE DATABASE "test_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (1088.6ms)[0m  [1m[35mCREATE DATABASE "test_app_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "books" CASCADE[0m
+  [1m[35m (13.0ms)[0m  [1m[35mCREATE TABLE "books" ("id" bigserial primary key, "title" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (11.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20240823155448)[0m
+  [1m[35m (11.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2024-09-07 16:17:24.583336"], ["updated_at", "2024-09-07 16:17:24.583336"]]
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "ab9a69c1cdd57b82067aa5e145d8086ff2d1f7d1"], ["created_at", "2024-09-07 16:17:24.592927"], ["updated_at", "2024-09-07 16:17:24.592927"]]
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "books" CASCADE[0m
+  [1m[35m (14.3ms)[0m  [1m[35mCREATE TABLE "books" ("id" bigserial primary key, "title" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (11.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20240823155448)[0m
+  [1m[35m (13.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2024-09-07 16:17:24.660838"], ["updated_at", "2024-09-07 16:17:24.660838"]]
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2024-09-07 16:17:24.666796"], ["key", "environment"]]
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "ab9a69c1cdd57b82067aa5e145d8086ff2d1f7d1"], ["created_at", "2024-09-07 16:17:24.673248"], ["updated_at", "2024-09-07 16:17:24.673248"]]
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 172.17.0.1 at 2024-09-07 16:17:39 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:7
+  Rendered books/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1825)
+  Rendered layout layouts/application.html.erb (Duration: 379.1ms | Allocations: 35002)
+Completed 200 OK in 445ms (Views: 389.0ms | ActiveRecord: 0.4ms | Allocations: 39918)
+
+
+Started GET "/" for 172.17.0.1 at 2024-09-07 16:18:27 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:7
+  Rendered books/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 1825)
+  Rendered layout layouts/application.html.erb (Duration: 398.4ms | Allocations: 34939)
+Completed 200 OK in 469ms (Views: 409.0ms | ActiveRecord: 0.4ms | Allocations: 39855)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.3ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "The Life of Pi"], ["created_at", "2024-09-07 16:19:00.628402"], ["updated_at", "2024-09-07 16:19:00.628402"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Harry Potter"], ["created_at", "2024-09-07 16:19:00.633602"], ["updated_at", "2024-09-07 16:19:00.633602"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Howls Moving Castle"], ["created_at", "2024-09-07 16:19:00.637963"], ["updated_at", "2024-09-07 16:19:00.637963"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "A Guide to Among Us"], ["created_at", "2024-09-07 16:19:00.642378"], ["updated_at", "2024-09-07 16:19:00.642378"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Starbucks Secrets"], ["created_at", "2024-09-07 16:19:00.646888"], ["updated_at", "2024-09-07 16:19:00.646888"]]
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Create (0.2ms)[0m  [1m[32mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["title", "Jif's Bio"], ["created_at", "2024-09-07 16:19:00.651645"], ["updated_at", "2024-09-07 16:19:00.651645"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 172.17.0.1 at 2024-09-07 16:19:13 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:7
+  Rendered books/_book.html.erb (Duration: 2.5ms | Allocations: 234)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/index.html.erb within layouts/application (Duration: 31.8ms | Allocations: 6973)
+  Rendered layout layouts/application.html.erb (Duration: 383.4ms | Allocations: 40078)
+Completed 200 OK in 452ms (Views: 390.8ms | ActiveRecord: 2.8ms | Allocations: 44995)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7992348028875656775)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7992348028875656775)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 172.17.0.1 at 2024-09-07 16:36:04 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:7
+  Rendered books/_book.html.erb (Duration: 7.2ms | Allocations: 234)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/index.html.erb within layouts/application (Duration: 31.7ms | Allocations: 6972)
+  Rendered layout layouts/application.html.erb (Duration: 442.3ms | Allocations: 39973)
+Completed 200 OK in 571ms (Views: 452.4ms | ActiveRecord: 2.3ms | Allocations: 44888)
+
+
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE DATABASE "test_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE DATABASE "test_app_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7992348028875656775)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7992348028875656775)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE DATABASE "test_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE DATABASE "test_app_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE "test_app_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE DATABASE "test_app_test" ENCODING = 'unicode'[0m
+Started GET "/" for 172.17.0.1 at 2024-09-07 17:01:48 +0000
+Cannot render console from 172.17.0.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/views/books/index.html.erb:7
+  Rendered books/_book.html.erb (Duration: 2.4ms | Allocations: 234)
+  Rendered books/_book.html.erb (Duration: 0.1ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/_book.html.erb (Duration: 0.0ms | Allocations: 16)
+  Rendered books/index.html.erb within layouts/application (Duration: 28.6ms | Allocations: 10504)
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 13012)
+Completed 200 OK in 112ms (Views: 52.1ms | ActiveRecord: 2.6ms | Allocations: 17927)
+
+
